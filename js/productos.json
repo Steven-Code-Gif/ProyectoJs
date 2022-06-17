@@ -1,0 +1,62 @@
+[
+    {
+        "name" : "Corona",
+        "price" : "10",
+        "imgSrc" : "img/corona.jpg"
+    },
+    {
+        "name" : "Fernet",
+        "price" : "90",
+        "imgSrc" : "img/fernet.jpeg"
+    },
+    {
+        "name" : "Four Loko",
+        "price" : "35",
+        "imgSrc" : "img/fourloko.jpg"
+    },
+    {
+        "name" : "Jager",
+        "price" : "53",
+        "imgSrc" : "img/jager.jpg"
+    },
+    {
+        "name" : "Ron Abuelo",
+        "price" : "80",
+        "imgSrc" : "img/ronAbuelo.jpeg"
+    },
+    {
+        "name" : "Ron Flor de Caña",
+        "price" : "100",
+        "imgSrc" : "img/ronFlor.jpg"
+    },
+    {
+        "name" : "Tekila",
+        "price" : "95",
+        "imgSrc" : "img/tekila.jpg"
+    },
+    {
+        "name" : "Vodka",
+        "price" : "45",
+        "imgSrc" : "img/vodka.jpg"
+    },
+    {
+        "name" : "Vodka Absolut",
+        "price" : "59",
+        "imgSrc" : "img/vodkaAbsolut.jpg"
+    },
+    {
+        "name" : "Wisky",
+        "price" : "130",
+        "imgSrc" : "img/wisky.jpg"
+    },
+    {
+        "name" : "Hielo",
+        "price" : "8",
+        "imgSrc" : "img/hielo.jpg"
+    },
+    {
+        "name" : "Soda",
+        "price" : "14",
+        "imgSrc" : "img/soda.jpg"
+    }
+]

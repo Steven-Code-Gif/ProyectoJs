@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/estilo.css">
+    <title>TiendasYA</title>
+</head>
+<body>
+<header>
+    <div class = "container">
+      <nav class = "navbar">
+        <a href = "index.html" class = "navbar-brand">TiendasYA</a>
+        <button type = "button" class = "navbar-toggler">
+          <i class = "fas fa-bars"></i>
+        </button>
+        <div class = "navbar-collapse">
+          <ul>
+            <li><a href = "#">Inicio</a></li>
+            <li><a href = "#products">Productos</a></li>
+            <li><a href = "#social-icons">contacto</a></li>
+          </ul>
+        </div>
+        <div class = "cart">
+          <button type = "button" id = "cart-btn">
+            <i class = "fas fa-shopping-cart"></i>
+            <span id = "cart-count-info"></span>
+          </button>
+          <div class = "cart-container">
+            <div class = "cart-list">
+            </div>
+            <div class = "cart-total">
+              <h3>Total: $</h3>
+              <span id = "cart-total-value"></span>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class = "banner">
+        <div class = "banner-content">
+          <h1>Lorem Ipsum</h1>
+          <p class = "text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos eveniet, quis nisi recusandae assumenda ea sequi obcaecati accusantium in provident dolore debitis autem neque vel commodi atque voluptates incidunt aliquam delectus veritatis? Exercitationem, fugit sed!</p>
+          <div class = "btns">
+            <button type = "button" class = "btn">more info</button>
+          </div>
+        </div>
+        <div class = "banner-img">
+          <img src = "img/banner.jpg" alt = "banner">
+        </div>
+      </div>
+    </div>
+  </header>
+  <section id="products" class = "products">
+    <div class = "container">
+      <h2 class="productos">Productos</h2>
+      <div class = "product-list">
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div id="social-icons" class = "footer-banner">
+      <div class = "container">
+        <h2>Lorem Ipsum</h2>
+        <p class = "text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores est quod maxime nisi possimus corporis qui aliquid molestias sit iusto itaque, cum delectus tempore, distinctio velit. Repellat reiciendis suscipit quidem aliquid ipsam, nemo minus repudiandae quas eligendi natus voluptate nostrum?</p>
+        <button type = "button" class = "btn">View More</button>
+      </div>
+    </div>
+    <div class = "container">
+      <div class = "social-icons">
+        <a href = "https://www.facebook.com/Tiendas-YA-104652925052317" target="_blank">
+          <i class = "fab fa-facebook-f"></i>
+        </a>
+        <a href = "https://www.instagram.com/tiendasya_bolivia/" target="_blank">
+          <i class = "fab fa-instagram"></i>
+        </a>
+        <a href = "https://www.linkedin.com/company/tiendas-ya/" target="_blank">
+          <i class = "fab fa-linkedin"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="/js/main.js"></script>
+</body>
+</html>
